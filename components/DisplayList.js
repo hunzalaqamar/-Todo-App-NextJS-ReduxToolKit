@@ -1,5 +1,5 @@
 import React from "react";
-import cx from "classNames";
+import cx from "classnames";
 
 function DisplayList({ Todo, HandleToggle }) {
   return (
