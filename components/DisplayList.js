@@ -1,7 +1,7 @@
 import React from "react";
 import cx from "classNames";
 
-function DisplayList({ Todo, OnClick }) {
+function DisplayList({ Todo, HandleToggle }) {
   return (
     <div>
       <ul className="pt-12">
@@ -11,7 +11,7 @@ function DisplayList({ Todo, OnClick }) {
               <li
                 key={id}
                 onClick={() => {
-                  OnClick(id);
+                  HandleToggle(id);
                 }}
                 className={cx("item", { done })}
               >
@@ -25,7 +25,7 @@ function DisplayList({ Todo, OnClick }) {
               <li
                 key={id}
                 onClick={() => {
-                  handleToggle(id);
+                  HandleToggle(id);
                 }}
                 className={cx("item", { done })}
               >

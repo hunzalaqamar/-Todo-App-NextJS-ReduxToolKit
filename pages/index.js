@@ -56,7 +56,7 @@ const Home = () => {
         <Button OnClick={() => dispatch(resetTodoList())} Text="Reset List" />
       </div>
 
-      <DisplayList Todo={todos} OnClick={handleToggle} />
+      <DisplayList Todo={todos} HandleToggle={handleToggle} />
     </div>
   );
 };
