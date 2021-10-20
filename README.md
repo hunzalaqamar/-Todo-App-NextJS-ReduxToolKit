@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+## You can also view the app in production @ https://todo-app-chi-weld.vercel.app/
 
 ```bash
 To Run,
